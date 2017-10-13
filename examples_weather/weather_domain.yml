@@ -1,0 +1,56 @@
+slots:
+  location:
+    type: text
+intents:
+ - xin_chao
+ - xac_nhan
+ - tu_choi
+ - cam_on
+ - hoi_thoi_tiet
+ - hoi_ten
+ - hoi_doanh_thu
+ - hoi_chi_phi
+ - tam_biet
+
+entities:
+ - location
+ - dia_diem
+ - thoi_gian
+ - intent
+
+templates:
+  utter_xin_chao:
+    - "Chào Anh/Chị, em tên là Linh. Rất vui được gặp nói chuyện với Anh/Chị. Em sẽ giúp anh chị biết được thêm thông tin sản phẩm của MISA ạ."
+  utter_loi_goi:
+    - "Em đây!"
+  utter_tam_biet:
+    - "Tạm biệt!"
+  utter_goi_y_dat_cau_hoi_khac:
+    - "Tôi chưa có thông tin để trả lời. Bạn có muốn đặt câu hỏi khác?"
+  utter_ack_thoi_tiet:
+    - "Thời tiết hôm nay tốt"
+  utter_xin_chao_lan2:
+    - "em nghe thấy rồi mà"
+  utter_xin_chao_lan3:
+    - "em đây hỏi lắm thế"
+  utter_hoi_ten:
+    - "Tên em là Linh"
+  utter_hoi_doanh_thu:
+    - "Doanh thu tính đến thời điểm này là 100 triệu"
+  utter_hoi_chi_phi:
+    - "Chi phí tính tới hiện tại là 20 triệu"
+  utter_hoi_them_chi_phi:
+    - "Anh có cần biết thêm chi phí không ạ?"
+
+actions:
+  - utter_xin_chao
+  - utter_loi_goi
+  - utter_tam_biet
+  - utter_goi_y_dat_cau_hoi_khac
+  - utter_ack_thoi_tiet
+  - utter_xin_chao_lan2
+  - utter_xin_chao_lan3
+  - utter_hoi_ten
+  - utter_hoi_doanh_thu
+  - utter_hoi_chi_phi
+  - utter_hoi_them_chi_phi
